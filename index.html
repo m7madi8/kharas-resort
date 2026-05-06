@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="منتجع ترفيهي بخاراس – الخليل – فلسطين. شوف الألعاب والأسعار وراسلنا واتساب بسرعة."
+    />
+
+    <title>منتجع خاراس الترفيهي | الخليل - فلسطين</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#booking">تخطي إلى الحجز</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="العودة للأعلى">
+          <span class="brand-mark" aria-hidden="true">K</span>
+          <span class="brand-text">
+            <span class="brand-name">Kharas</span>
+            <span class="brand-sub">Resort</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="التنقل الرئيسي">
+          <a class="nav-link" href="#about">عن المنتجع</a>
+          <a class="nav-link" href="#reels">ريلز</a>
+          <a class="nav-link" href="#games">الألعاب</a>
+          <a class="nav-link" href="#tickets">التذاكر</a>
+          <a class="nav-link" href="#gallery">الصور</a>
+          <a class="nav-link" href="#location">الموقع</a>
+          <a class="nav-link nav-link--cta" href="#booking">راسلنا واتساب</a>
+        </nav>
+      </div>
+
+      <!-- removed: urgency bar -->
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="hero" aria-label="الواجهة الرئيسية">
+        <div class="hero-bg" aria-hidden="true">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="./assets/images/hero-poster.svg"
+            data-fallback="true"
+          >
+            <!-- ضع فيديوك هنا (يفضل webm/mp4) -->
+            <source src="./assets/videos/hero.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-overlay"></div>
+          <div class="hero-noise"></div>
+          <div class="hero-fallback-gradient"></div>
+        </div>
+
+        <div class="container hero-content">
+          <div class="hero-card glass">
+            <p class="pill">
+              <span class="pill-dot" aria-hidden="true"></span>
+              جو تصوير + ألعاب… ستايل سوشال
+            </p>
+
+            <h1 class="hero-title">
+              عيش يوم ما بتنساه <span aria-hidden="true">🔥</span>
+            </h1>
+            <p class="hero-subtitle">ألعاب قوية + لقطات حلوة… تعال عالجو.</p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#booking" data-track="cta-hero-book">راسلنا واتساب</a>
+              <a class="btn btn-ghost" href="#games" data-track="cta-hero-games">
+                شوف الألعاب
+              </a>
+            </div>
+
+            <div class="hero-trust">
+              <div class="trust-item">
+                <span class="trust-number">+12</span>
+                <span class="trust-label">منطقة ألعاب</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-number">4.8</span>
+                <span class="trust-label">تقييم الزوار</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-number">24/7</span>
+                <span class="trust-label">واتساب</span>
+              </div>
+            </div>
+          </div>
+
+          <a class="scroll-indicator" href="#about" aria-label="التمرير لأسفل">
+            <span class="scroll-indicator__mouse" aria-hidden="true"></span>
+            <span class="scroll-indicator__text">اسحب لتشوف</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">عن المنتجع</h2>
+            <p class="section-kicker">يوم حلو… وذكريات.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="glass about-card">
+              <h3 class="card-title">تعال عالجو</h3>
+              <p class="muted">شوف الألعاب والأسعار… وإذا بدّك اسألنا على واتساب.</p>
+              <ul class="checklist" role="list">
+                <li>تنظيم سريع</li>
+                <li>مناسب للعيلة والشباب</li>
+                <li>رد واتساب سريع</li>
+              </ul>
+
+              <div class="inline-cta">
+                <a class="link-cta" href="#tickets">شوف الأسعار</a>
+                <button class="link-cta link-cta--whatsapp" type="button" data-whatsapp="general">
+                  اسأل عبر واتساب
+                </button>
+              </div>
+            </div>
+
+            <div class="glass stats-card">
+              <div class="stat">
+                <div class="stat-icon" aria-hidden="true">⚡</div>
+                <div>
+                  <div class="stat-title">الحماس</div>
+                  <div class="stat-value">عالٍ</div>
+                </div>
+              </div>
+              <div class="stat">
+                <div class="stat-icon" aria-hidden="true">🎥</div>
+                <div>
+                  <div class="stat-title">تصوير</div>
+                  <div class="stat-value">جاهز</div>
+                </div>
+              </div>
+              <div class="stat">
+                <div class="stat-icon" aria-hidden="true">🛡️</div>
+                <div>
+                  <div class="stat-title">أمان</div>
+                  <div class="stat-value">مناسب</div>
+                </div>
+              </div>
+
+              <div class="mini-banner">
+                <div class="mini-banner__glow" aria-hidden="true"></div>
+                <p>
+                  <strong>نصيحة:</strong> تعال بكير… وخلّص لعب قبل الزحمة.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REELS -->
+      <section class="section" id="reels" aria-label="مقاطع ريلز">
+        <div class="container">
+          <div class="section-head section-head--row">
+            <div>
+              <h2 class="section-title">ريلز بأجواء المنتجع</h2>
+              <p class="section-kicker">اسحب يمين/يسار… واضغط للتشغيل.</p>
+            </div>
+            <div class="hint-chip glass" aria-hidden="true">Snap Scroll</div>
+          </div>
+
+          <div class="reels" role="list" aria-label="قائمة الريلز">
+            <article class="reel-card glass" role="listitem">
+              <button class="reel-toggle" type="button" aria-label="تشغيل/إيقاف الفيديو">
+                <span class="reel-toggle__icon" aria-hidden="true"></span>
+              </button>
+              <video class="reel-video" muted loop playsinline preload="metadata" poster="./assets/images/reel-1.svg">
+                <source src="./assets/videos/reel-1.mp4" type="video/mp4" />
+              </video>
+              <div class="reel-title">لقطة سريعة</div>
+            </article>
+
+            <article class="reel-card glass" role="listitem">
+              <button class="reel-toggle" type="button" aria-label="تشغيل/إيقاف الفيديو">
+                <span class="reel-toggle__icon" aria-hidden="true"></span>
+              </button>
+              <video class="reel-video" muted loop playsinline preload="metadata" poster="./assets/images/reel-2.svg">
+                <source src="./assets/videos/reel-2.mp4" type="video/mp4" />
+              </video>
+              <div class="reel-title">تحدي السرعة</div>
+            </article>
+
+            <article class="reel-card glass" role="listitem">
+              <button class="reel-toggle" type="button" aria-label="تشغيل/إيقاف الفيديو">
+                <span class="reel-toggle__icon" aria-hidden="true"></span>
+              </button>
+              <video class="reel-video" muted loop playsinline preload="metadata" poster="./assets/images/reel-3.svg">
+                <source src="./assets/videos/reel-3.mp4" type="video/mp4" />
+              </video>
+              <div class="reel-title">ضحك العائلة</div>
+            </article>
+
+            <article class="reel-card glass" role="listitem">
+              <button class="reel-toggle" type="button" aria-label="تشغيل/إيقاف الفيديو">
+                <span class="reel-toggle__icon" aria-hidden="true"></span>
+              </button>
+              <video class="reel-video" muted loop playsinline preload="metadata" poster="./assets/images/reel-4.svg">
+                <source src="./assets/videos/reel-4.mp4" type="video/mp4" />
+              </video>
+              <div class="reel-title">ليلة أضواء</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GAMES -->
+      <section class="section" id="games" aria-label="الألعاب">
+        <div class="container">
+          <div class="section-head">
+              <h2 class="section-title">ألعابنا</h2>
+              <p class="section-kicker">اختار مستوى الحماس.</p>
+          </div>
+
+          <div class="games-grid" role="list">
+            <article class="game-card glass" role="listitem">
+              <img class="game-media" src="./assets/images/game-1.svg" alt="لعبة برج الرعب" loading="lazy" />
+              <div class="game-body">
+                <div class="game-top">
+                  <h3 class="game-title">برج الرعب</h3>
+                  <span class="tag tag--youth">شباب</span>
+                </div>
+                <div class="meter" aria-label="مستوى الإثارة">
+                  <span class="meter-label">إثارة</span>
+                  <span class="meter-fire" aria-hidden="true">🔥🔥🔥🔥🔥</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card glass" role="listitem">
+              <img class="game-media" src="./assets/images/game-2.svg" alt="لعبة سباق الواقع" loading="lazy" />
+              <div class="game-body">
+                <div class="game-top">
+                  <h3 class="game-title">سباق الواقع</h3>
+                  <span class="tag tag--mixed">عيلة</span>
+                </div>
+                <div class="meter" aria-label="مستوى الإثارة">
+                  <span class="meter-label">إثارة</span>
+                  <span class="meter-fire" aria-hidden="true">🔥🔥🔥🔥</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card glass" role="listitem">
+              <img class="game-media" src="./assets/images/game-3.svg" alt="مدينة الأطفال" loading="lazy" />
+              <div class="game-body">
+                <div class="game-top">
+                  <h3 class="game-title">مدينة الأطفال</h3>
+                  <span class="tag tag--kids">أطفال</span>
+                </div>
+                <div class="meter" aria-label="مستوى الإثارة">
+                  <span class="meter-label">مرح</span>
+                  <span class="meter-fire" aria-hidden="true">🔥🔥🔥</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card glass" role="listitem">
+              <img class="game-media" src="./assets/images/game-4.svg" alt="عجلة السماء" loading="lazy" />
+              <div class="game-body">
+                <div class="game-top">
+                  <h3 class="game-title">عجلة السماء</h3>
+                  <span class="tag tag--mixed">عيلة</span>
+                </div>
+                <div class="meter" aria-label="مستوى الإثارة">
+                  <span class="meter-label">إطلالة</span>
+                  <span class="meter-fire" aria-hidden="true">🔥🔥</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card glass" role="listitem">
+              <img class="game-media" src="./assets/images/game-5.svg" alt="بيت المرايا" loading="lazy" />
+              <div class="game-body">
+                <div class="game-top">
+                  <h3 class="game-title">بيت المرايا</h3>
+                  <span class="tag tag--mixed">عيلة</span>
+                </div>
+                <div class="meter" aria-label="مستوى الإثارة">
+                  <span class="meter-label">تشويق</span>
+                  <span class="meter-fire" aria-hidden="true">🔥🔥🔥</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card glass" role="listitem">
+              <img class="game-media" src="./assets/images/game-6.svg" alt="VR Attack" loading="lazy" />
+              <div class="game-body">
+                <div class="game-top">
+                  <h3 class="game-title">VR Attack</h3>
+                  <span class="tag tag--youth">شباب</span>
+                </div>
+                <div class="meter" aria-label="مستوى الإثارة">
+                  <span class="meter-label">إثارة</span>
+                  <span class="meter-fire" aria-hidden="true">🔥🔥🔥🔥</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="section-cta glass">
+            <div>
+              <h3 class="card-title">جاهز؟</h3>
+              <p class="muted">شوف أسعار الألعاب… واحجز فورًا.</p>
+            </div>
+            <a class="btn btn-primary" href="#tickets">شوف التذاكر</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- TICKETS -->
+      <section class="section" id="tickets" aria-label="تذاكر الألعاب (عرض)">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">التذاكر (عرض)</h2>
+            <p class="section-kicker">الأسعار للعرض فقط. للاستفسار: واتساب.</p>
+          </div>
+
+          <div class="pricing">
+            <article class="price-card glass price-card--featured" aria-label="ملاحظة الدخولية">
+              <div class="badge">ملاحظة</div>
+              <div class="price-head">
+                <h3 class="price-title">دخولية المنتجع</h3>
+                <p class="muted">في دخولية للمنتجع.</p>
+              </div>
+              <div class="price">
+                <span class="price-currency">₪</span>
+                <span class="price-value" data-counter="5">5</span>
+              </div>
+              <ul class="features" role="list">
+                <li>الدخولية غير شامل الألعاب</li>
+                <li>أسعار الألعاب منفصلة</li>
+              </ul>
+              <p class="tiny muted">للعرض فقط.</p>
+            </article>
+
+            <article class="price-card glass" aria-label="تذكرة مسبح الرجال">
+              <div class="price-head">
+                <h3 class="price-title">مسبح الرجال</h3>
+                <p class="muted">جلسة منعشة… وراحة.</p>
+              </div>
+              <div class="price">
+                <span class="price-currency">₪</span>
+                <span class="price-value" data-counter="120">120</span>
+              </div>
+              <ul class="features" role="list">
+                <li>تذكرة مسبح (رجال)</li>
+                <li>مدة حسب التنظيم</li>
+                <li>منطقة مخصصة</li>
+              </ul>
+              <p class="tiny muted">للعرض فقط.</p>
+            </article>
+
+            <article class="price-card glass" aria-label="تذكرة مسبح النساء">
+              <div class="price-head">
+                <h3 class="price-title">مسبح النساء</h3>
+                <p class="muted">خصوصية + متعة.</p>
+              </div>
+              <div class="price">
+                <span class="price-currency">₪</span>
+                <span class="price-value" data-counter="120">120</span>
+              </div>
+              <ul class="features" role="list">
+                <li>تذكرة مسبح (نساء)</li>
+                <li>مدة حسب التنظيم</li>
+                <li>منطقة مخصصة</li>
+              </ul>
+              <p class="tiny muted">للعرض فقط.</p>
+            </article>
+
+            <article class="price-card glass" aria-label="Zip Line ticket">
+              <div class="price-head">
+                <h3 class="price-title">Zip Line</h3>
+                <p class="muted">جرعة أدرينالين سريعة.</p>
+              </div>
+              <div class="price">
+                <span class="price-currency">₪</span>
+                <span class="price-value" data-counter="180">180</span>
+              </div>
+              <ul class="features" role="list">
+                <li>تذكرة لعبة (Zip Line)</li>
+                <li>تعليمات أمان قبل البداية</li>
+                <li>مناسبة للشباب</li>
+              </ul>
+              <p class="tiny muted">للعرض فقط.</p>
+            </article>
+
+            <article class="price-card glass" aria-label="تذكرة ألعاب المجموعة">
+              <div class="price-head">
+                <h3 class="price-title">تذكرة ألعاب المجموعة</h3>
+                <p class="muted">تذكرة واحدة تشمل مجموعة ألعاب.</p>
+              </div>
+              <div class="price">
+                <span class="price-currency">₪</span>
+                <span class="price-value" data-counter="140">140</span>
+              </div>
+              <ul class="features" role="list">
+                <li>تشمل: السفينة + ألعاب مختارة</li>
+                <li>صالحة للاستخدام مرة/حسب التنظيم</li>
+                <li>مناسب للعيلة والشباب</li>
+              </ul>
+              <p class="tiny muted">للعرض فقط.</p>
+            </article>
+          </div>
+
+          <div class="section-cta glass">
+            <div>
+              <h3 class="card-title">بدك تحجز/تستفسر؟</h3>
+              <p class="muted">ابعتلنا “الألعاب + العدد + التاريخ” على واتساب.</p>
+            </div>
+            <a class="btn btn-primary" href="#booking">راسلنا واتساب</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section" id="gallery" aria-label="المعرض">
+        <div class="container">
+          <div class="section-head section-head--row">
+            <div>
+              <h2 class="section-title">الجاليري</h2>
+              <p class="section-kicker">اضغط على أي صورة للتكبير.</p>
+            </div>
+            <div class="pill glass">جودة عالية + تحميل سريع</div>
+          </div>
+
+          <div class="masonry" role="list">
+            <button class="masonry-item" type="button" role="listitem" data-lightbox="./assets/images/gallery-1.svg" aria-label="فتح صورة 1">
+              <img src="./assets/images/gallery-1.svg" alt="إضاءة مميزة" loading="lazy" />
+            </button>
+            <button class="masonry-item" type="button" role="listitem" data-lightbox="./assets/images/gallery-2.svg" aria-label="فتح صورة 2">
+              <img src="./assets/images/gallery-2.svg" alt="منطقة ألعاب" loading="lazy" />
+            </button>
+            <button class="masonry-item" type="button" role="listitem" data-lightbox="./assets/images/gallery-3.svg" aria-label="فتح صورة 3">
+              <img src="./assets/images/gallery-3.svg" alt="عيلة" loading="lazy" />
+            </button>
+            <button class="masonry-item" type="button" role="listitem" data-lightbox="./assets/images/gallery-4.svg" aria-label="فتح صورة 4">
+              <img src="./assets/images/gallery-4.svg" alt="منطقة تصوير" loading="lazy" />
+            </button>
+            <button class="masonry-item" type="button" role="listitem" data-lightbox="./assets/images/gallery-5.svg" aria-label="فتح صورة 5">
+              <img src="./assets/images/gallery-5.svg" alt="ممر مضيء" loading="lazy" />
+            </button>
+            <button class="masonry-item" type="button" role="listitem" data-lightbox="./assets/images/gallery-6.svg" aria-label="فتح صورة 6">
+              <img src="./assets/images/gallery-6.svg" alt="ألعاب VR" loading="lazy" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOCATION -->
+      <section class="section" id="location" aria-label="الموقع">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">الموقع</h2>
+            <p class="section-kicker">خاراس – الخليل – فلسطين</p>
+          </div>
+
+          <div class="location-grid">
+            <div class="glass map-wrap">
+              <iframe
+                title="خريطة الموقع"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Kharas%2C%20Hebron%2C%20Palestine&output=embed"
+              ></iframe>
+            </div>
+
+            <div class="glass location-card">
+              <h3 class="card-title">وين موقعنا؟</h3>
+              <p class="muted">خاراس – الخليل – فلسطين</p>
+
+              <div class="location-actions">
+                <a
+                  class="btn btn-ghost"
+                  href="https://www.google.com/maps/search/?api=1&query=Kharas%2C%20Hebron%2C%20Palestine"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  افتح في Google Maps
+                </a>
+                <a
+                  class="btn btn-ghost"
+                  href="https://waze.com/ul?q=Kharas%20Hebron%20Palestine&navigate=yes"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  افتح في Waze
+                </a>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="contact-mini">
+                <div class="contact-mini__item">
+                  <span class="muted">ساعات العمل</span>
+                  <strong>4م – 2ص</strong>
+                </div>
+                <div class="contact-mini__item">
+                  <span class="muted">الاستفسارات</span>
+                  <strong>واتساب سريع</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOOKING -->
+      <section class="section" id="booking" aria-label="الحجز عبر واتساب">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">احجز في دقيقة</h2>
+            <p class="section-kicker">اسم + رقم + تاريخ… وخلاص.</p>
+          </div>
+
+          <div class="booking-grid">
+            <form class="glass booking-form" id="booking-form" autocomplete="on">
+              <div class="form-row">
+                <label class="field">
+                  <span class="field-label">الاسم</span>
+                  <input name="name" type="text" placeholder="مثال: أحمد" required />
+                </label>
+                <label class="field">
+                  <span class="field-label">رقم الهاتف</span>
+                  <input name="phone" type="tel" inputmode="tel" placeholder="مثال: 01xxxxxxxxx" required />
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label class="field">
+                  <span class="field-label">عدد الأشخاص</span>
+                  <input name="people" type="number" min="1" max="99" value="2" required />
+                </label>
+                <label class="field">
+                  <span class="field-label">التاريخ</span>
+                  <input name="date" type="date" required />
+                </label>
+              </div>
+
+              <label class="field">
+                <span class="field-label">ملاحظات</span>
+                <textarea name="notes" rows="4" placeholder="اكتب الألعاب اللي بدك إياها…"></textarea>
+              </label>
+
+              <input type="hidden" name="plan" id="selected-plan" value="Entry" />
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit" data-track="cta-booking-whatsapp">
+                  احجز عبر واتساب
+                </button>
+                <button class="btn btn-ghost" type="button" data-whatsapp="general">
+                  استفسار سريع
+                </button>
+              </div>
+
+              <p class="tiny muted">
+                بالضغط على “احجز عبر واتساب” سيتم فتح واتساب برسالة جاهزة—تقدر تعدلها قبل الإرسال.
+              </p>
+            </form>
+
+            <aside class="glass booking-aside">
+              <h3 class="card-title">ليه الناس بتحجز عندنا؟</h3>
+              <ul class="checklist" role="list">
+                <li>رد سريع على واتساب</li>
+                <li>تنظيم يوفّر وقتك</li>
+                <li>ترشيح ألعاب حسب سنّكم</li>
+              </ul>
+
+              <div class="divider"></div>
+
+              <div class="hotline">
+                <div class="hotline-badge" aria-hidden="true">VIP</div>
+                <div>
+                  <div class="muted">حجز مباشر عبر واتساب</div>
+                  <button class="hotline-link" type="button" data-whatsapp="booking">
+                    اضغط لفتح واتساب الآن
+                  </button>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" id="footer" aria-label="التذييل">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brand brand--footer">
+            <span class="brand-mark" aria-hidden="true">K</span>
+            <span class="brand-text">
+              <span class="brand-name">Kharas</span>
+              <span class="brand-sub">Resort</span>
+            </span>
+          </div>
+          <p class="muted">تجربة ترفيهية… حجز سريع… وذكريات.</p>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-title">تواصل</h3>
+          <ul class="footer-links" role="list">
+            <li><button class="footer-link" type="button" data-whatsapp="general">واتساب: رسالة مباشرة</button></li>
+            <li><a class="footer-link" href="tel:+201000000000">اتصال: +20 100 000 0000</a></li>
+            <li><a class="footer-link" href="mailto:hello@kharas.example">Email: hello@kharas.example</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-title">سوشيال</h3>
+          <ul class="footer-links" role="list">
+            <li><a class="footer-link" href="#" aria-label="TikTok">TikTok</a></li>
+            <li><a class="footer-link" href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a class="footer-link" href="#" aria-label="Snapchat">Snapchat</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <span class="muted">© <span id="year"></span> Kharas Resort. All rights reserved.</span>
+        <a class="muted footer-top" href="#top">للأعلى ↑</a>
+      </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop" data-lightbox-close="true"></div>
+      <div class="lightbox-dialog glass" role="dialog" aria-modal="true" aria-label="عرض الصورة">
+        <button class="lightbox-close" type="button" data-lightbox-close="true" aria-label="إغلاق">×</button>
+        <img class="lightbox-img" id="lightbox-img" alt="صورة مكبرة" />
+      </div>
+    </div>
+
+    <!-- Sticky mobile CTA -->
+    <div class="mobile-cta" role="region" aria-label="زر الحجز السريع">
+      <a class="mobile-cta__btn" href="#booking" data-track="cta-sticky-mobile">
+        راسلنا واتساب
+        <span class="mobile-cta__spark" aria-hidden="true"></span>
+      </a>
+      <button class="mobile-cta__wa" type="button" data-whatsapp="general" aria-label="واتساب">
+        WhatsApp
+      </button>
+    </div>
+
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>
